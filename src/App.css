@@ -1,0 +1,24 @@
+.container {
+  display: grid;
+  grid-template-columns: 30% 70%;
+  gap: 10px;
+  grid-template-rows: 2fr 1fr;
+  grid-template-areas:
+    "aside content"
+    "aside content"
+    "footer footer";
+}
+
+.Filters {
+  grid-area: aside;
+}
+
+.TodoList {
+  grid-area: content;
+  height: 70vh;
+  overflow-y: scroll;
+}
+
+.AddTodo {
+  grid-area: footer;
+}

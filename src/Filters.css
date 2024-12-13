@@ -1,0 +1,32 @@
+.Filters {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 0.5em;
+}
+.isDone {
+  display: flex;
+  flex-direction: row;
+  margin-top: 0.2em;
+}
+.isPriority {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  background-color: #a4b0b692;
+}
+.isPriority span {
+  margin-bottom: 0.3em;
+  padding-left: 0.5em;
+  padding-top: 0.1em;
+}
+.option {
+  background-color: #e2efef;
+}
+.isSearch {
+  display: flex;
+}
+.isSearch input {
+  display: flex;
+  width: 100%;
+}

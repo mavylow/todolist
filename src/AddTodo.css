@@ -1,0 +1,62 @@
+.AddTodo {
+  padding: 0.5em 0 0 0.5em;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60%;
+}
+.TodoInputs {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 0.1em;
+}
+.TodoInputs span {
+  font-size: 1em;
+  width: 25vw;
+}
+.TodoInputs input {
+  font-size: 1em;
+  width: 75vw;
+}
+.TodoInputs input::placeholder {
+  font-size: 1em;
+}
+button {
+  background-color: #f0f4f8;
+  border: 0.1em solid #b0c4de;
+  border-radius: 5px;
+  padding: 0.5em 1em;
+
+  transition: background-color 0.3s, transform 0.2s;
+}
+button:hover {
+  background-color: #e0e7ee;
+  transform: scale(1.05);
+}
+
+.choosePriority {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+.choosePriority span {
+  width: 24.5vw;
+}
+.priorityButtons {
+  width: 75.5vw;
+}
+.choosePriority button {
+  margin: 0.1em;
+  background-color: #d5dbdb;
+}
+.choosePriority button.active {
+  background-color: #f0f4f8;
+}
+.TodoInputs .description {
+  height: 10vh;
+}
+.addButtons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.1em;
+}
